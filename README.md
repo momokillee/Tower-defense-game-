@@ -7,7 +7,7 @@ This project demonstrates core game development concepts along with **algorithm 
 
 ## 🎮 Gameplay Screenshot
 
-![Tower Defense Gameplay](assets/gameplay.png)
+![Tower Defense Gameplay](assets/gameplay.jpg)
 
 ---
 
