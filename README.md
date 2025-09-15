@@ -1,45 +1,37 @@
 # 🏰 Tower Defense Game
 
 A simple browser-based **Tower Defense game** built with **HTML, CSS, and JavaScript**.  
-This project demonstrates core game development concepts along with **algorithm analysis and design (DA project)**.
+The game features enemy pathfinding, tower placement, and shooting mechanics.  
 
 ---
 
 ## 🎮 Gameplay Screenshot
-
-![Tower Defense Gameplay](assets/gameplay.jpg)
+![Gameplay Screenshot](assets/gameplay.jpg)
 
 ---
 
 ## ✨ Features
-
-- **Animated sprites** for enemies and towers  
-- **Tower placement** via click or drag-and-drop  
-- **Upgrade & delete options** with floating menus  
-- **Targeting modes**: First, Strongest, Weakest  
-- **Wave system** with queued enemy spawns  
-- **Pathfinding & collision detection**  
+- Drag & drop tower placement  
+- Upgrade or delete towers via context menu  
+- Multiple targeting modes (first, strongest, weakest)  
+- Enemy waves with increasing difficulty  
+- Pixel-art assets for towers and enemies  
 
 ---
 
-## 🧠 Core Algorithms Implemented
-
-1. **Pathfinding (Enemy Movement)** → BFS / path array traversal  
-2. **Collision Detection** → Euclidean distance formula  
-3. **Target Selection** → Greedy selection (first, strongest, weakest)  
-4. **Wave Management** → Queue-based spawning  
-5. **Tower Placement Validation** → Ensures towers only go on valid tiles  
+## 📦 Assets
+This project uses free assets from [Craftpix.net](https://craftpix.net/freebies/free-archer-towers-pixel-art-for-tower-defense/?num=1&count=43&sq=tower%20defence&pos=7).  
+All credits for artwork go to **Craftpix**.  
 
 ---
 
-## ⚡ How to Play
-
-1. **Start the game** → Waves begin automatically.  
-2. **Place towers** → Click a grass tile (25 gold) or drag from the palette.  
-3. **Upgrade/Delete** → Click a tower to open floating options.  
-4. **Defend your base** → Stop enemies from reaching the goal.  
+## 🚀 How to Run
+1. Clone or download this repository  
+2. Open `index.html` in a browser  
+3. Enjoy the game!  
 
 ---
 
-## 📂 Project Structure
-
+## 📜 License
+This project is for **educational purposes only**.  
+Assets are licensed under Craftpix’s free license terms.  
