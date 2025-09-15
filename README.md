@@ -1,43 +1,43 @@
-# 🏰 Tower Defense Game (Algorithm Analysis Project)
+# 🏰 Tower Defense Game
 
-A browser-based **Tower Defense Game** built with **HTML5 Canvas, CSS, and JavaScript**, created as part of a **Design & Analysis of Algorithms (DAA) project**.  
-The game demonstrates key algorithmic concepts through interactive gameplay and a dedicated algorithm analysis section.
-
----
-
-## 🎮 Features
-- Enemy movement along a fixed path
-- Tower placement, upgrades, and targeting
-- Multiple enemy types with sprite animations
-- Gold, wave, lives, and score tracking
-- Drag-and-drop tower placement from palette
-- Interactive algorithm analysis section with **visual demonstrations**
+A simple browser-based **Tower Defense game** built with **HTML, CSS, and JavaScript**.  
+This project demonstrates core game development concepts along with **algorithm analysis and design (DA project)**.
 
 ---
 
-## 🧮 Algorithms Implemented
+## 🎮 Gameplay Screenshot
 
-This project highlights **five important algorithms** used in Tower Defense game design:
+![Tower Defense Gameplay](assets/gameplay.png)
 
-1. **Pathfinding (Enemy Movement)**  
-   - Enemies follow a fixed path from spawn to goal.  
-   - Mimics **Breadth-First Search (BFS)** or simple path array traversal.
+---
 
-2. **Collision Detection (Tower Range Check)**  
-   - Towers check which enemies are in range using the **Euclidean distance formula**.  
-   - Ensures only nearby enemies are attacked.
+## ✨ Features
 
-3. **Target Selection (Greedy Choice)**  
-   - Towers pick targets based on modes: **First**, **Strongest**, or **Weakest**.  
-   - Demonstrates greedy selection strategy.
+- **Animated sprites** for enemies and towers  
+- **Tower placement** via click or drag-and-drop  
+- **Upgrade & delete options** with floating menus  
+- **Targeting modes**: First, Strongest, Weakest  
+- **Wave system** with queued enemy spawns  
+- **Pathfinding & collision detection**  
 
-4. **Wave Spawning (Queue Scheduling)**  
-   - Enemies are spawned sequentially using a **queue (FIFO)**.  
-   - Each wave dequeues enemies one by one.
+---
 
-5. **Tower Placement Validation**  
-   - Algorithm checks if a tile is valid for tower placement.  
-   - Prevents overlapping towers or blocking the enemy path.
+## 🧠 Core Algorithms Implemented
+
+1. **Pathfinding (Enemy Movement)** → BFS / path array traversal  
+2. **Collision Detection** → Euclidean distance formula  
+3. **Target Selection** → Greedy selection (first, strongest, weakest)  
+4. **Wave Management** → Queue-based spawning  
+5. **Tower Placement Validation** → Ensures towers only go on valid tiles  
+
+---
+
+## ⚡ How to Play
+
+1. **Start the game** → Waves begin automatically.  
+2. **Place towers** → Click a grass tile (25 gold) or drag from the palette.  
+3. **Upgrade/Delete** → Click a tower to open floating options.  
+4. **Defend your base** → Stop enemies from reaching the goal.  
 
 ---
 
