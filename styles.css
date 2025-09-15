@@ -1,0 +1,79 @@
+/* 🔹 Background image with faint dark overlay */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  height: 100vh;
+  background: url("assets/pre.png") center/cover no-repeat fixed;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4); /* Adjust opacity: 0.2 = lighter, 0.6 = darker */
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* 🔹 Game container (keeps everything above background) */
+.game-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* 🔹 Canvas styling */
+#gameCanvas {
+  border: 2px solid #333;
+  background-color: rgba(255, 255, 255, 0.05); /* faint transparent backdrop */
+  display: block;
+}
+
+/* 🔹 UI buttons */
+button {
+  background: #444;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #666;
+}
+
+/* 🔹 Tower action menu (upgrade/delete) */
+.tower-menu {
+  position: absolute;
+  background: rgba(20, 20, 20, 0.9);
+  padding: 6px;
+  border-radius: 8px;
+  display: flex;
+  gap: 5px;
+  z-index: 2;
+}
+
+.tower-menu button {
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+/* 🔹 Dragging towers */
+.tower-button {
+  cursor: grab;
+}
+
+.tower-button:active {
+  cursor: grabbing;
+}
